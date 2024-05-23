@@ -1,0 +1,17 @@
+/* Hero.css */
+@keyframes upDownMotion {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px); /* Adjust the upward distance */
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  .animated-image img {
+    animation: upDownMotion 2s infinite; /* Adjust the duration as needed */
+  }
+  
